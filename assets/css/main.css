@@ -89,5 +89,9 @@ p{
     .pagecontainer{
         padding: 0.5em;
         width: 90%;
+        font-size: 15px;
+    }
+    .nav{
+        font-size: 15px;
     }
 }
