@@ -27,4 +27,13 @@
     .contentcontainer p{
         flex: 1 0 0;
     }
+    .paragraphcontainer{
+        flex: 2 0 0;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+        align-self: flex-start;
+    }
+    .imagecontainer{
+        padding: 0.5em 0.5em 0.5em 0.5em;
+        align-self: flex-start;
+    }
 }
