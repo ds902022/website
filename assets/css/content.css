@@ -1,0 +1,30 @@
+.pics{
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.pics img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.contentcontainer p{
+    flex: 2 0 0;
+}
+.contentcontainer a, .imagecontainer{
+    flex: 1 0 0;
+}
+.paragraphcontainer{
+    flex: 2 0 0;
+    padding: 0.5em 1em 0.5em 0.5em;
+    align-self: flex-start;
+}
+.imagecontainer{
+    padding: 1.25em 0.5em 0.5em 1em;
+    align-self: flex-start;
+}
+@media screen and (max-width: 767px) {
+    .contentcontainer p{
+        flex: 1 0 0;
+    }
+}
